@@ -10,9 +10,11 @@ def biography(request):
     return render(request, 'biography.html')
 
 def life_and_education(request):
+    """displays life and education page"""
     return render(request, 'life_and_education.html')
 
 def anc_youth(request):
+    """displays anc youth page"""
     return render(request, 'anc_youth.html')
 
 
